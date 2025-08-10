@@ -13,4 +13,11 @@ public class Femme extends Humain{
     public String toString() {
         return nom + " " + prenom + " " + age + "ans";
     }
+
+    public static void main(String[] args) {
+        Femme femme = new Femme("Dupon" ,"Marie",30);
+        Homme homme = new Homme("Martin", "Jean", 35);
+
+        femme.ami(homme);
+    }
 }
