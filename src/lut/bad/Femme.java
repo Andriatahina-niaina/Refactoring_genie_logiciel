@@ -9,4 +9,8 @@ public class Femme extends Humain{
         super(nom,prenom,age);
     }
 
+    @Override
+    public String toString() {
+        return nom + " " + prenom + " " + age + "ans";
+    }
 }
